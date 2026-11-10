@@ -1,0 +1,4 @@
+pyTelegramBotAPI>=4.37.0
+python-dotenv
+requests
+flask

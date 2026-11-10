@@ -1,0 +1,12 @@
+# Never ship secrets or local state from the deploy folder.
+.env
+.env.*
+!.env.example
+*.db
+*.db-journal
+*.db-wal
+__pycache__/
+*.pyc
+run.log
+run.pid
+.venv/
